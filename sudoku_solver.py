@@ -75,7 +75,6 @@ def print_board(board):
             if j == 8:
                 print("|")
     print("-------------------------")
-    pass
 
 
 board = [
@@ -91,4 +90,4 @@ board = [
 ]
 
 solve(board)
-print(print_board(board))
+print_board(board)
